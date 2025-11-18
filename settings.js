@@ -11,7 +11,7 @@ global.botNumber = "" //Ejemplo: 573218138672
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.owner = ["393715279301", "5492916450307", ""]
+global.owner = ["393715279301", "", ""]
 global.suittag = [""] 
 global.prems = []
 
