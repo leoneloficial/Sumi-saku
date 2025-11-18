@@ -169,9 +169,9 @@ conn.logger.info(`[ ✿ ]  H E C H O\n`)
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) {
-/const tmp = [os.tmpdir(), 'tmp', `${jadi}`]
-/tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete']))
+if (opts[''] && (global.support || {}).find) {
+const tmp = [os.tmpdir(), 'tmp', `${jadi}`]
+tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete']))
 }}, 30 * 1000)
 }
 
